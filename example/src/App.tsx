@@ -1,10 +1,17 @@
 import React from 'react'
 
-import { ExampleComponent } from 'capstone-lib'
 import 'capstone-lib/dist/index.css'
 
+// Importar o seu componente para testar
+import { Grid } from 'capstone-lib'
+
+//Colocar componente um em baixo do outro para ir testanto
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <>
+      <Grid> OLA </Grid>
+    </>
+  )
 }
 
 export default App
