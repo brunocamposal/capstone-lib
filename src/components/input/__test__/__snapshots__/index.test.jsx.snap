@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`input renderizando corretamente 1`] = `
+exports[`Teste Snapshot input renderizando corretamente 1`] = `
 <input
   id="id"
   name="name"
