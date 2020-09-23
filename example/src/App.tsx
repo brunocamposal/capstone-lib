@@ -3,7 +3,7 @@ import React from 'react'
 import 'capstone-lib/dist/index.css'
 
 // Importar o seu componente para testar
-import { Grid, Col } from 'capstone-lib'
+import { Grid, Col, Button } from 'capstone-lib'
 
 //Colocar componente um em baixo do outro para ir testanto
 const App = () => {
@@ -57,6 +57,7 @@ const App = () => {
           2
         </Col>
       </Grid>
+      <Button>Button</Button>
     </>
   )
 }
