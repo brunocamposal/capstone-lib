@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`input renderizando corretamente 1`] = `
+<input
+  id="id"
+  name="name"
+  onChange={[Function]}
+  placeholder="place"
+  type="text"
+  value="value"
+/>
+`;

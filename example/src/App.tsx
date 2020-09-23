@@ -1,10 +1,15 @@
 import React from 'react'
 
-import { ExampleComponent } from 'capstone-lib'
+import { Input } from 'capstone-lib'
 import 'capstone-lib/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <div>
+      <Input type='text' />
+      <p> hello</p>
+    </div>
+  )
 }
 
 export default App
