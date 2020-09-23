@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 
-export const Teste = styled.div`
-  color: yellow;
+export const Grid = styled.div`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 `
