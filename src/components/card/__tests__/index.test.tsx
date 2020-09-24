@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer'
 import { shallow, mount } from 'enzyme'
 import Card from '../index'
 
-describe("Render test", () => {
+describe("Card snapshot test", () => {
   it("Should render a card", () => {
     const tree = renderer
       .create(<Card imgUrl="Test url" description="Test Description" title="Test Title" />)
@@ -11,7 +11,8 @@ describe("Render test", () => {
     expect(tree).toMatchSnapshot()
   })
 })
-describe('Teste Shallow Enzyme', () => {
+
+describe('Card Shallow Enzyme test', () => {
   it('check attributes', () => {
     const wrapper = shallow(
       <Card
