@@ -1,7 +1,10 @@
-import { ExampleComponent } from '.'
+import { Grid, Button, Col, Input } from '.'
 
-describe('ExampleComponent', () => {
+describe('ComponentTests', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(Grid).toBeTruthy()
+    expect(Button).toBeTruthy()
+    expect(Input).toBeTruthy()
+    expect(Col).toBeTruthy()
   })
 })
