@@ -1,4 +1,5 @@
 import * as React from 'react'
+import * as Styled from './styles'
 
 interface Props {
   title: string,
@@ -8,11 +9,11 @@ interface Props {
 
 const Card = ({ title, description, imgUrl }: Props) => {
   return (
-    <div>
+    <Styled.Wrapper>
       <h2>{title}</h2>
       <img src={imgUrl} />
       <p>{description}</p>
-    </div>
+    </Styled.Wrapper>
   )
 }
 
