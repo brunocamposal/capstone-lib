@@ -1,7 +1,5 @@
 import React from 'react'
 
-import 'capstone-lib/dist/index.css'
-
 // Importar o seu componente para testar
 import { Grid, Col, Button } from 'capstone-lib'
 
