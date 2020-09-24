@@ -3,11 +3,11 @@ import React from 'react'
 // Importar o seu componente para testar
 import { Grid, Button, Input, Col } from 'capstone-lib'
 
-
 //Colocar componente um em baixo do outro para ir testanto
 const App = () => {
   return (
     <>
+
       <h1> Grid </h1>
       <Grid>
         <Col width={12} backgroundColor='#E6C79C'>
