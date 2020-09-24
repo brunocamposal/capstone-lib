@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly grid 1`] = `
+<div
+  className="sc-bdnylx jTSfH"
+  width={12}
+>
+  teste
+</div>
+`;
