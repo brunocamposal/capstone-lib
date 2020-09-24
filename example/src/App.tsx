@@ -1,9 +1,7 @@
 import React from 'react'
 
-import 'capstone-lib/dist/index.css'
-
 // Importar o seu componente para testar
-import { Grid, Button } from 'capstone-lib'
+import { Grid, Button, Input } from 'capstone-lib'
 
 //Colocar componente um em baixo do outro para ir testanto
 const App = () => {
@@ -11,7 +9,8 @@ const App = () => {
     <>
       <Grid> OLA </Grid>
       <Button>Button</Button>
-    </>
+      <Input type='text' />
+     </>
   )
 }
 
