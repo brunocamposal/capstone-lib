@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly grid 1`] = `
+exports[`renders correctly collumn 1`] = `
 <div
   className="sc-bdnylx jTSfH"
   width={12}

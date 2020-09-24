@@ -1,6 +1,6 @@
 import { Grid, Button, Col, Input } from '.'
 
-describe('ExampleComponent', () => {
+describe('ComponentTests', () => {
   it('is truthy', () => {
     expect(Grid).toBeTruthy()
     expect(Button).toBeTruthy()
