@@ -1,6 +1,5 @@
 // Importar o seu componente
 
-import Grid from './components/grid'
-import Button from './components/button'
+import Checkbox from './components/checkbox'
 
-export { Grid, Button }
+export { Checkbox }

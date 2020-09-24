@@ -1,16 +1,13 @@
 import React from 'react'
 
-import 'capstone-lib/dist/index.css'
-
 // Importar o seu componente para testar
-import { Grid, Button } from 'capstone-lib'
+import { Checkbox } from 'capstone-lib'
 
 //Colocar componente um em baixo do outro para ir testanto
 const App = () => {
   return (
     <>
-      <Grid> OLA </Grid>
-      <Button>Button</Button>
+      <Checkbox label='Check' />
     </>
   )
 }
