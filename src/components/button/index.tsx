@@ -7,7 +7,7 @@ interface Props {
   color?: string
 }
 
-const Button = ({ children, onClick, color, bgColor}: Props) => {
+const Button = ({ children, onClick, color}: Props) => {
   return <Styled.Button color={color} onClick={onClick}> {children} </Styled.Button>
 }
 

@@ -1,12 +1,12 @@
 import * as React from 'react'
 import * as Styled from './styles'
 
-interface Props {
-  children: string
+interface GridProps {
+  children: React.ReactNode
 }
 
-const Grid = ({ children }: Props) => {
-  return <Styled.Teste> {children} </Styled.Teste>
+const Grid = ({ children }: GridProps) => {
+  return <Styled.Grid> {children} </Styled.Grid>
 }
 
 export default Grid
