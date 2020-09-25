@@ -1,9 +1,7 @@
 import React from 'react'
 
-// Importar o seu componente para testar
-import { Grid, Button, Input, Col, Card } from 'capstone-lib'
+import { Grid, Button, Input, Col, Card, Checkbox } from 'capstone-lib'
 
-//Colocar componente um em baixo do outro para ir testanto
 const App = () => {
 
   return (
@@ -60,6 +58,8 @@ const App = () => {
       <Button color='blue' onClick={() => {}}>Button</Button>
       <h1> Input </h1>
       <Input type='text' />
+      <h1> Checkbox </h1>
+      <Checkbox label='Check' />
       <h1> Card </h1>
       <Card
         title="Thomas Shelby"

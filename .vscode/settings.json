@@ -15,5 +15,9 @@
     "titleBar.inactiveBackground": "#0a0f0799",
     "titleBar.inactiveForeground": "#e7e7e799"
   },
+<<<<<<< HEAD
+  "peacock.color": "#0a0f07"
+=======
   "peacock.remoteColor": "#0a0f07"
+>>>>>>> master
 }
