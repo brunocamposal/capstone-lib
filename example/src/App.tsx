@@ -7,14 +7,11 @@ import { Grid, Button } from 'capstone-lib'
 
 //Colocar componente um em baixo do outro para ir testanto
 const App = () => {
-  const handleOnClick = () => {
-    console.log("clicked !")
-  }
 
   return (
     <>
       <Grid> OLA </Grid>
-      <Button color='blue' onClick={handleOnClick}>Button</Button>
+      <Button color='blue' onClick={() => {}}>Button</Button>
     </>
   )
 }
