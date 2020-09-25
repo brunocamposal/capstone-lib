@@ -13,7 +13,6 @@ const Checkbox = ({ label, value, checked, onClick }: Props) => {
     <label htmlFor={label}>
       <StyledCheckbox
         type='checkbox'
-        className='caps-lib-checkbox'
         name={label}
         value={value}
         onClick={onClick}

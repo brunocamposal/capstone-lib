@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render a checkbox 1`] = `
+Array [
+  <label>
+    <input
+      checked={true}
+      className="sc-bdnylx jyWKkz"
+      onClick={[Function]}
+      type="checkbox"
+      value="value"
+    />
+  </label>,
+  "label",
+]
+`;

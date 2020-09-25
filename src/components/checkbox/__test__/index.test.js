@@ -19,18 +19,5 @@ it('should render a checkbox', () => {
     )
     .toJSON()
 
-  expect(tree).toMatchInlineSnapshot(`
-    Array [
-      <label>
-        <input
-          checked={true}
-          className="sc-bdnylx oZhGm caps-lib-checkbox"
-          onClick={[Function]}
-          type="checkbox"
-          value="value"
-        />
-      </label>,
-      "label",
-    ]
-  `)
+  expect(tree).toMatchSnapshot()
 })
