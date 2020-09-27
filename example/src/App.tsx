@@ -1,11 +1,29 @@
 import React from 'react'
 
-import { Grid, Button, Input, Col, Card, Checkbox } from 'capstone-lib'
+import { Grid, Button, Input, Col, Card, Checkbox, Figure }  from 'capstone-lib'
 
 const App = () => {
 
   return (
     <>
+    <h2>Figure:</h2>
+    <p>1. Definindo width:</p>
+    <Figure
+      src='https://440245-1378968-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2019/01/fatos-curiosos-sobre-o-homer-simpson.jpg'
+      alt='Homer Simpson'
+      x={180}
+    />
+    <p>2. Definindo height:</p>
+    <Figure
+    src='https://440245-1378968-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2019/01/fatos-curiosos-sobre-o-homer-simpson.jpg'
+    alt='Homer Simpson'
+    y={180}
+    />
+    <p>3. Sem definição de dimensões:</p>
+    <Figure
+    src='https://440245-1378968-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2019/01/fatos-curiosos-sobre-o-homer-simpson.jpg'
+    alt='Homer Simpson'
+  />
       <h1> Grid </h1>
       <Grid>
         <Col width={12} backgroundColor='#E6C79C'>
