@@ -1,4 +1,4 @@
-import { Grid, Button, Col, Input, Card, Checkbox } from '.'
+import { Grid, Button, Col, Input, Card, Checkbox, Figure } from '.'
 
 describe('ComponentTests', () => {
   it('is truthy', () => {
@@ -8,5 +8,6 @@ describe('ComponentTests', () => {
     expect(Col).toBeTruthy()
     expect(Card).toBeTruthy()
     expect(Checkbox).toBeTruthy()
+    expect(Figure).toBeTruthy()
   })
 })

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Figure should render a Figure 1`] = `
+<figure
+  className="sc-bdnylx bGApif"
+>
+  <img
+    alt="Homer"
+    className="sc-gtssRu bRcjfP"
+    src="https://440245-1378968-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2019/01/fatos-curiosos-sobre-o-homer-simpson.jpg"
+    width={120}
+  />
+  <figcaption
+    className="sc-dlnjPT llcwuW"
+  >
+    “
+    Homer
+    ”
+  </figcaption>
+</figure>
+`;
